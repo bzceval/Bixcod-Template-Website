@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Rubik&display=swap');
 body {
     font-family: 'Rubik', sans-serif !important;
 }
@@ -24,4 +24,26 @@ ul.dropdown-menu  {
     background-color: #D80C56 !important;
     font-size: 14px !important;
     width: 100% !important;
+}
+/* footer */
+#footer {
+    background-color: #080E21;
+    color: #fff;
+}
+#footer a {
+    color: #fff !important;
+    font-size: 14px !important; 
+    font-family: 'Manrope', sans-serif !important;
+}
+#footer h5 {
+    font-weight: bold !important; 
+    font-family: 'Manrope', sans-serif !important;
+}
+#footer .btn-subcribtion {
+    background-color: #D80C56 !important;
+    border: none !important;
+    border-radius: none !important;
+    padding: 5px 30px 5px 30px !important;
+    font-size: 12px !important;
+    color: #fff !important;
 }
