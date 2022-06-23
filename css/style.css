@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Rubik:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&family=Rubik:wght@300;400&display=swap');
 body {
   font-family: "Rubik", sans-serif !important;
 }
@@ -25,7 +25,46 @@ ul.dropdown-menu {
   font-size: 14px !important;
   width: 100% !important;
 }
+/*customer*/
+.bi-check-circle-fill {
+  color: #d80c56;
+  font-size: 20px;
+}
+.btn-light {
+  background-color: #d80c56 !important;
+  color: #fff !important;
+  font-size: 13px !important;
+}
+.bi-arrow-right {
+  padding-left: 50px;
+}
+#customer h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #121313;
+  font-weight: bolder;
+}
+#customer p {
+  font-family: 'Montserrat', sans-serif;
+  color: #121313;
+  font-size: 14px;
+  line-height: 1.5rem;
+  font-weight: normal;
+}
+#customer div {
+  font-family: 'Montserrat', sans-serif;
+  color: #121313;
+  font-size: 14px;
+  line-height: 1.5rem;
+  font-weight: 600;
+}
+/*FAQ*/
+#accordion {
+  border: none !important;
+}
 /*card*/
+.dashed {
+  border-top: 1px dashed white;
+}
 .card {
     background-color: rgba(187, 187, 187, 0.123) !important;
     border-radius: 5px !important;
@@ -35,6 +74,8 @@ ul.dropdown-menu {
 }
 .card li {
   font-weight: bolder;
+  font-size: 14px;
+  font-family: "Manrope", sans-serif;
 }
 .card li span {
     font-weight: lighter !important;
