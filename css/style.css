@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Manrope&family=Rubik&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Rubik:wght@300;400&display=swap');
 body {
   font-family: "Rubik", sans-serif !important;
 }
@@ -24,6 +24,20 @@ ul.dropdown-menu {
   background-color: #d80c56 !important;
   font-size: 14px !important;
   width: 100% !important;
+}
+/*card*/
+.card {
+    background-color: rgba(187, 187, 187, 0.123) !important;
+    border-radius: 5px !important;
+}
+.color-card {
+    border-color: #d80c56 !important;
+}
+.card li {
+  font-weight: bolder;
+}
+.card li span {
+    font-weight: lighter !important;
 }
 /* footer */
 #footer {
