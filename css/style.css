@@ -58,8 +58,39 @@ ul.dropdown-menu {
   font-weight: 600;
 }
 /*FAQ*/
+#faq {
+  background-image: linear-gradient(
+    to right bottom,
+    #4676ce6b,
+    #080e21,
+    #080e21, 
+    #080e21,
+    #080e21,
+    #4676ce6b
+  );
+  background-color: #080e21;
+  color: #fff;
+}
 #accordion {
   border: none !important;
+}
+#faq h1 {
+  color:  #fff;
+  font-weight: 900;
+  font-size: 50px;
+}
+#faq p {
+  color:  #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  margin-top: 40px;
+  line-height: 2rem;
+}
+.btn-dark {
+  background-color: #fff !important;
+  color: #122048 !important;
+  padding: 10px 60px 10px 60px !important;
+  font-size: 14px !important;
 }
 /*card*/
 .dashed {
