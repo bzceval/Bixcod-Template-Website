@@ -28,7 +28,7 @@ ul.dropdown-menu {
 /*tabbar*/
 .nav-pills button {
   color: #1220481C;
-  font-size: 20px !important ;
+  font-size: 25px !important ;
   font-weight: bolder !important;
 }
 button#pills-who-tab.active {
@@ -62,6 +62,42 @@ button#pills-how-tab.active {
 button#pills-how-tab.active span{
   background-color: transparent !important;
   color: #FDCD1E !important;
+}
+/*tabbar card*/
+.tabbar .card {
+  background-color: transparent !important;
+  border: none !important;
+  border-radius: 20px;
+}
+.tabbar .card .active {
+  background-color: #d80c56;
+}
+.tabbar .card img {
+  padding: 20px;
+  border-radius: 10px;
+}
+.tabbar .card h1 {
+  color: #122048;
+  font-weight: bolder !important;
+  font-size: 20px;
+}
+.tabbar .card p {
+  color: #122048;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  line-height: 1.5rem;
+  padding: 0px 30px 0px 30px;
+}
+.tabbar .btn-outline-secondary {
+  color: #122048;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center !important;
+}
+.tabbar .btn-outline-secondary:hover {
+  background-color: #122048;
+  font-size: 13px;
+  font-weight: bold;
 }
 /* Satisfaction */
 #satification h2 {
