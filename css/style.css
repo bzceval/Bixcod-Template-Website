@@ -25,6 +25,23 @@ ul.dropdown-menu {
   font-size: 14px !important;
   width: 100% !important;
 }
+/* Satisfaction */
+#satification h2 {
+  font-weight: bolder;
+  color: #122048;
+}
+#satification p {
+  color: #989DBB;
+  font-size: 12px;
+}
+#satification .bi-star-fill {
+  color: #15C5CE;
+  font-size: 10px;
+}
+hr {
+  color: #E0E2EF !important;
+  height: 2px !important;
+}
 /*customer*/
 .bi-check-circle-fill {
   color: #d80c56;
