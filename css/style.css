@@ -25,6 +25,44 @@ ul.dropdown-menu {
   font-size: 14px !important;
   width: 100% !important;
 }
+/*tabbar*/
+.nav-pills button {
+  color: #1220481C;
+  font-size: 20px !important ;
+  font-weight: bolder !important;
+}
+button#pills-who-tab.active {
+  background-color: transparent !important;
+  color: #122048 !important;
+}
+button#pills-who-tab.active span{
+  background-color: transparent !important;
+  color: #D80C56 !important;
+}
+button#pills-what-tab.active {
+  background-color: transparent !important;
+  color: #122048 !important;
+}
+button#pills-what-tab.active span{
+  background-color: transparent !important;
+  color: #3448FF !important;
+}
+button#pills-why-tab.active {
+  background-color: transparent !important;
+  color: #122048 !important;
+}
+button#pills-why-tab.active span{
+  background-color: transparent !important;
+  color: #CC03C3 !important;
+}
+button#pills-how-tab.active {
+  background-color: transparent !important;
+  color: #122048 !important;
+}
+button#pills-how-tab.active span{
+  background-color: transparent !important;
+  color: #FDCD1E !important;
+}
 /* Satisfaction */
 #satification h2 {
   font-weight: bolder;
