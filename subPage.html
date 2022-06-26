@@ -13,47 +13,118 @@
 </head>
 
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <section class="dark-bg" id="hero">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light pt-3">
+            <div class="container">
+                <a class="navbar-brand text-white" href="#">Bixcod</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Ana Sayfa</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Ürün ve Servisler</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Kurumsal</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Bize Ulaşın</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <!-- <input class="form-control me-2" type="search" placeholder="0850 444 44 44" aria-label="Search"> -->
+                        <button class="btn btn-secondary" type="submit">Hızlı Teklif Al</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
         <div class="container">
-            <a class="navbar-brand" href="#">Bixcod</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Ana Sayfa</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">Ürün ve Servisler</a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
+          <div class="d-flex align-items-center justify-content-center text-white text-center">
+            <h1>Türkiye'nin en gelişmiş yazılım çözümleri!</h1>
+            <!-- <p>İşletmeniz için en uygun paket çözümler ile hemen e-ticarete başlayın. A'dan Z'ye paket çözümlerimiz ile işletmenizin tüm ihtiyaçlarını tek paket ile çözün.</p> -->
+            <div style="height: 500px;"></div>
+          </div>
+        </div>
+    </section>
+
+    <!-- Web-Tech -->
+    <div class="container my-5 py-5" id="web-tech">
+      <div class="text-center web-tech pb-4">
+        <h1>Web teknolojilerini <span> BİXCOD</span> ile sizlerle buluşturuyoruz!</h1>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+      </div>
+        <div class="row row-cols-2 row-cols-md-4 mb-3 text-center">
+            <div class="col mb-4">
+                <div class="card shadow-sm">
+                    <div class="d-flex justify-content-center mt-4">
+                    <img src="./image/ui-ux-design.svg" alt="UI UX Design" width="20%" height="20%">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="my-0">UI/UX Tasarım</h3> 
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
                         </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Kurumsal</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Bize Ulaşın</a>
-                    </li>
-                </ul>
-                <form class="d-flex">
-                    <!-- <input class="form-control me-2" type="search" placeholder="0850 444 44 44" aria-label="Search"> -->
-                    <button class="btn btn-secondary" type="submit">Hızlı Teklif Al</button>
-                </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card shadow-sm">
+                <div class="d-flex justify-content-center mt-4">
+                    <img src="./image/web-developer.svg" alt="UI UX Design" width="20%" height="20%">
+                </div>
+                    <div class="card-body">
+                        <h3 class="my-0">Web Yazılım</h3> 
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+            <div class="card shadow-sm">
+                <div class="d-flex justify-content-center mt-4">
+                    <img src="./image/mobile-deisgn.svg" alt="UI UX Design" width="20%" height="20%">
+                </div>
+                    <div class="card-body">
+                        <h3 class="my-0">Mobil Yazılım</h3> 
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+             <div class="card shadow-sm">
+                <div class="d-flex justify-content-center mt-4">
+                    <img src="./image/environment.svg" alt="UI UX Design" width="20%" height="20%">
+                </div>
+                    <div class="card-body">
+                        <h3 class="my-0">Çoklu Ortam Yazılım</h3> 
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
-    </nav>
+    </div>
 
-     <!-- START THE FEATURETTES -->
+    <!-- Featurettes -->
     <div class="container my-5 p-3" id="featurettes">
      <div class="row featurette my-5 d-flex align-items-center">
        <div class="col-md-6">
@@ -106,7 +177,6 @@
      <!-- /END THE FEATURETTES -->
    </div><!-- /.container -->
  
-
     <!-- FAQ -->
     <section class="my-5 py-5" id="faq">
         <div class="container">
