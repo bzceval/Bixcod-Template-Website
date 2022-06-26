@@ -148,6 +148,35 @@ hr {
   line-height: 1.5rem;
   font-weight: 600;
 }
+/*Ecommerce*/
+#ecommerce {
+  background-image: linear-gradient(
+    to right bottom,
+    #4676ce6b,
+    #080e21,
+    #080e21, 
+    #080e21,
+    #080e21,
+    #4676ce6b
+  );
+  background-color: #080e21;
+  color: #fff;
+}
+#ecommerce h1 {
+  font-weight: normal;
+}
+#ecommerce h1 span {
+  font-weight: 900;
+}
+#ecommerce p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  line-height: 2rem;
+}
+#ecommerce h6 {
+  font-size: 12px;
+  margin-top: 15px;
+}
 /*FAQ*/
 #faq {
   background-image: linear-gradient(
