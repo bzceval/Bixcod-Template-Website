@@ -179,6 +179,35 @@ hr {
   margin-top: 15px;
 }
 /*Preference*/
+/*Need*/
+#need {
+  background-image: linear-gradient(
+    to right bottom,
+    #4676ce6b,
+    #080e21,
+    #080e21, 
+    #080e21,
+    #080e21,
+    #4676ce6b
+  );
+  background-color: #080e21;
+  color: #fff;
+} 
+#need h1 { 
+  font-size: 30px;
+}
+#need p { 
+  font-size: 13px;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5rem;
+  margin-top: 20px;
+}
+#need .contact { 
+  border: none;
+}
+.btn-outline-light {
+  font-size: 12px !important;
+}
 /*FAQ*/
 #faq {
   background-image: linear-gradient(
