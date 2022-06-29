@@ -352,3 +352,37 @@ hr {
   color: #837F84;
   line-height: 1.5rem;
 }
+/* MISSION PAGE*/
+#mission {
+  background-color: #EEF5FF;
+}  
+#mission h1 span {
+  color: #D80C56;
+}
+#mission p {
+  font-size: 13px;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.75rem;
+}
+#mission i {
+  background-color: #EEF5FF;
+  border-radius: 50%;
+  padding: 10px;
+  text-align: center;
+  color: #D80C56;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+#mission .card {
+  border: none;
+  background-color: #fff !important;
+}
+#mission h6 {
+  font-size: 14px;
+  font-weight: bold;
+}
+.mission-description {
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 0px 30px 0px 0px;
+}
