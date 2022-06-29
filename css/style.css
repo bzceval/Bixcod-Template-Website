@@ -355,14 +355,19 @@ hr {
 /* MISSION PAGE*/
 #mission {
   background-color: #EEF5FF;
+  color: #283646;
 }  
 #mission h1 span {
   color: #D80C56;
 }
 #mission p {
-  font-size: 13px;
+  font-size: 12px;
   font-family: 'Montserrat', sans-serif;
-  line-height: 1.75rem;
+}
+.mission-description {
+  font-size: 15px !important;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.75rem; 
 }
 #mission i {
   background-color: #EEF5FF;
@@ -380,9 +385,4 @@ hr {
 #mission h6 {
   font-size: 14px;
   font-weight: bold;
-}
-.mission-description {
-  font-size: 12px;
-  font-family: 'Montserrat', sans-serif;
-  padding: 0px 30px 0px 0px;
-}
+} 
