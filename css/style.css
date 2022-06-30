@@ -179,6 +179,37 @@ hr {
   margin-top: 15px;
 }
 /*Preference*/
+#preference {
+  background-color: #F8F9FA;
+}
+#preference h6 {
+  font-size: 12px;
+  padding: 0px;
+  margin: 0px 0px 0px 0px;
+  color: #959EAD;
+}
+#preference h3 {
+  font-size: 16px;
+  padding: 0px;
+  margin: 0px 0px 0px 0px;
+  color: #183B56;
+}
+#preference .card {
+  background-color: #fff !important;
+  border-radius: 10px;
+  border: none; 
+}
+.carousel-indicators button { 
+  background-color: #d80c56 !important;
+} 
+#preference a {
+  font-size: 12px;
+  padding: 50px 0px 0px 0px;
+  margin: 50px 0px 0px 0px;
+  text-decoration: none;
+  color: #D80C56;
+  font-weight: bold;
+} 
 /*Need*/
 #need {
   background-image: linear-gradient(
@@ -221,9 +252,28 @@ hr {
   );
   background-color: #080e21;
   color: #fff;
+} 
+.accordion-body {
+  background-color: #080e21 !important;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px !important;
+  line-height: 1.5rem;
 }
-#accordion {
+.accordion-item { 
   border: none !important;
+}
+.accordion-button {
+  background-color: #080e21 !important;
+  color: #fff !important;
+  font-size: 13px !important;
+  line-height: 1.5rem;
+  font-weight: 600;
+  padding: 0px !important;
+}
+button.accordion-button.collapsed::after { 
+  color: #fff !important;
+  background-color: #fff !important;
 }
 #faq h1 {
   color:  #fff;
