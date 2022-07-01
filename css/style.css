@@ -270,11 +270,7 @@ hr {
   line-height: 1.5rem;
   font-weight: 600;
   padding: 0px !important;
-}
-button.accordion-button.collapsed::after { 
-  color: #fff !important;
-  background-color: #fff !important;
-}
+} 
 #faq h1 {
   color:  #fff;
   font-weight: 900;
