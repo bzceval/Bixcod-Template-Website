@@ -387,7 +387,8 @@ div.relative {
 }
 .copyright {
   font-family: "Manrope", sans-serif !important;
-  font-size: 12px;
+  font-size: 14px;
+  padding-left: 40px; 
 }
 /*SUB PAGE*/ 
 #featurettes h6 {
