@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&family=Rubik:wght@300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&family=Rubik:wght@300;400&display=swap");
 body {
   font-family: "Rubik", sans-serif !important;
 }
@@ -6,7 +6,7 @@ body {
 #landing-page {
   background-image: url("../image/header.png");
   background-size: cover;
-  background-position: center center; 
+  background-position: center center;
 }
 /* #landing-page {
   height: 100vh;
@@ -34,20 +34,21 @@ a.nav-link:active {
 .dropdown h4 {
   font-size: 14px;
   font-weight: bold;
-  color: #111B29;
+  color: #111b29;
   margin-bottom: 10px;
 }
-.dropdown p, a {
-  font-size: 12px; 
+.dropdown p,
+a {
+  font-size: 12px;
   text-decoration: none !important;
-  color: #111B29 !important;
-} 
+  color: #111b29 !important;
+}
 .dropdown a:hover {
   color: #d80c56 !important;
-} 
+}
 .btn-secondary {
   background-color: #fff !important;
-  color: #080E21 !important;
+  color: #080e21 !important;
   border: none !important;
   font-size: 14px !important;
   padding: 10px 40px 10px 40px !important;
@@ -55,7 +56,7 @@ a.nav-link:active {
 }
 /*tabbar*/
 .nav-pills button {
-  color: #1220481C;
+  color: #1220481c;
   font-size: 25px !important ;
   font-weight: bolder !important;
 }
@@ -63,33 +64,33 @@ button#pills-who-tab.active {
   background-color: transparent !important;
   color: #122048 !important;
 }
-button#pills-who-tab.active span{
+button#pills-who-tab.active span {
   background-color: transparent !important;
-  color: #D80C56 !important;
+  color: #d80c56 !important;
 }
 button#pills-what-tab.active {
   background-color: transparent !important;
   color: #122048 !important;
 }
-button#pills-what-tab.active span{
+button#pills-what-tab.active span {
   background-color: transparent !important;
-  color: #3448FF !important;
+  color: #3448ff !important;
 }
 button#pills-why-tab.active {
   background-color: transparent !important;
   color: #122048 !important;
 }
-button#pills-why-tab.active span{
+button#pills-why-tab.active span {
   background-color: transparent !important;
-  color: #CC03C3 !important;
+  color: #cc03c3 !important;
 }
 button#pills-how-tab.active {
   background-color: transparent !important;
   color: #122048 !important;
 }
-button#pills-how-tab.active span{
+button#pills-how-tab.active span {
   background-color: transparent !important;
-  color: #FDCD1E !important;
+  color: #fdcd1e !important;
 }
 /*tabbar card*/
 .tabbar .card {
@@ -111,7 +112,7 @@ button#pills-how-tab.active span{
 }
 .tabbar .card p {
   color: #122048;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 12px;
   line-height: 1.5rem;
   padding: 0px 30px 0px 30px;
@@ -133,15 +134,15 @@ button#pills-how-tab.active span{
   color: #122048;
 }
 #satification p {
-  color: #989DBB;
+  color: #989dbb;
   font-size: 12px;
 }
 #satification .bi-star-fill {
-  color: #15C5CE;
+  color: #15c5ce;
   font-size: 10px;
 }
 hr {
-  color: #E0E2EF !important;
+  color: #e0e2ef !important;
   height: 2px !important;
 }
 /*customer*/
@@ -158,19 +159,19 @@ hr {
   padding-left: 50px;
 }
 #customer h1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #121313;
   font-weight: bolder;
 }
 #customer p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #121313;
   font-size: 14px;
   line-height: 1.5rem;
   font-weight: normal;
 }
 #customer div {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #121313;
   font-size: 14px;
   line-height: 1.5rem;
@@ -182,29 +183,13 @@ hr {
     to right bottom,
     #4676ce6b,
     #080e21,
-    #080e21, 
+    #080e21,
     #080e21,
     #080e21,
     #4676ce6b
   );
   background-color: #080e21;
   color: #fff;
-}
-div.relative {
-  position: relative;
-  width: 400px;
-  height: 200px;
-  border: 3px solid #73AD21;
-} 
-.ecommerce-img { 
-  position: absolute;
-  top: -100px; 
-  left: 0px;
-  /* width: 200px;
-  height: 100px; */
-  border: 3px solid #73AD21;
-  margin: 0px;
-  padding: 0px;
 }
 #ecommerce h1 {
   font-weight: normal;
@@ -213,7 +198,7 @@ div.relative {
   font-weight: 900;
 }
 #ecommerce p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   line-height: 2rem;
 }
@@ -223,60 +208,60 @@ div.relative {
 }
 /*Preference*/
 #preference {
-  background-color: #F8F9FA;
+  background-color: #f8f9fa;
 }
 #preference h6 {
   font-size: 12px;
   padding: 0px;
   margin: 0px 0px 0px 0px;
-  color: #959EAD;
+  color: #959ead;
 }
 #preference h3 {
   font-size: 16px;
   padding: 0px;
   margin: 0px 0px 0px 0px;
-  color: #183B56;
+  color: #183b56;
 }
 #preference .card {
   background-color: #fff !important;
   border-radius: 10px;
-  border: none; 
+  border: none;
 }
-.carousel-indicators button { 
+.carousel-indicators button {
   background-color: #d80c56 !important;
-} 
+}
 #preference a {
   font-size: 12px;
   padding: 50px 0px 0px 0px;
   margin: 50px 0px 0px 0px;
   text-decoration: none;
-  color: #D80C56;
+  color: #d80c56;
   font-weight: bold;
-} 
+}
 /*Need*/
 #need {
   background-image: linear-gradient(
     to right bottom,
     #4676ce6b,
     #080e21,
-    #080e21, 
+    #080e21,
     #080e21,
     #080e21,
     #4676ce6b
   );
   background-color: #080e21;
   color: #fff;
-} 
-#need h1 { 
+}
+#need h1 {
   font-size: 30px;
 }
-#need p { 
+#need p {
   font-size: 13px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 1.5rem;
   margin-top: 20px;
 }
-#need .contact { 
+#need .contact {
   border: none;
 }
 .btn-outline-light {
@@ -288,22 +273,22 @@ div.relative {
     to right bottom,
     #4676ce6b,
     #080e21,
-    #080e21, 
+    #080e21,
     #080e21,
     #080e21,
     #4676ce6b
   );
   background-color: #080e21;
   color: #fff;
-} 
+}
 .accordion-body {
   background-color: #080e21 !important;
   color: #fff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 12px !important;
   line-height: 1.5rem;
 }
-.accordion-item { 
+.accordion-item {
   border: none !important;
 }
 .accordion-button {
@@ -313,15 +298,15 @@ div.relative {
   line-height: 1.5rem;
   font-weight: 600;
   padding: 0px !important;
-} 
+}
 #faq h1 {
-  color:  #fff;
+  color: #fff;
   font-weight: 900;
   font-size: 50px;
 }
 #faq p {
-  color:  #fff;
-  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   margin-top: 40px;
   line-height: 2rem;
@@ -337,11 +322,11 @@ div.relative {
   border-top: 1px dashed white;
 }
 .card {
-    background-color: rgba(187, 187, 187, 0.123) !important;
-    border-radius: 5px !important;
+  background-color: rgba(187, 187, 187, 0.123) !important;
+  border-radius: 5px !important;
 }
 .color-card {
-    border-color: #d80c56 !important;
+  border-color: #d80c56 !important;
 }
 .card li {
   font-weight: bolder;
@@ -349,7 +334,7 @@ div.relative {
   font-family: "Manrope", sans-serif;
 }
 .card li span {
-    font-weight: lighter !important;
+  font-weight: lighter !important;
 }
 /* footer */
 #footer {
@@ -357,7 +342,7 @@ div.relative {
     to right bottom,
     #4676ce6b,
     #080e21,
-    #080e21, 
+    #080e21,
     #080e21,
     #080e21,
     #4676ce6b
@@ -388,13 +373,13 @@ div.relative {
 .copyright {
   font-family: "Manrope", sans-serif !important;
   font-size: 14px;
-  padding-left: 40px; 
+  padding-left: 40px;
 }
-/*SUB PAGE*/ 
+/*SUB PAGE*/
 #featurettes h6 {
   font-family: "Manrope", sans-serif !important;
   font-weight: bolder;
-  color: #384F88;
+  color: #384f88;
   font-size: 15px;
 }
 #featurettes h2 {
@@ -404,7 +389,7 @@ div.relative {
   font-weight: bold;
   color: #757095;
   font-size: 13px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-top: 20px;
 }
 .featurette {
@@ -417,13 +402,13 @@ div.relative {
   font-weight: 600;
 }
 .web-tech h1 span {
-  color: #D80C56;
+  color: #d80c56;
   font-weight: bolder;
 }
 .web-tech p {
   padding-left: 50px;
-  padding-right: 50px; 
-  line-height: 2rem; 
+  padding-right: 50px;
+  line-height: 2rem;
 }
 #web-tech .card {
   background-color: transparent !important;
@@ -431,36 +416,36 @@ div.relative {
 }
 #web-tech h3 {
   font-size: 15px;
-  color: #22092D;
+  color: #22092d;
 }
 #web-tech p {
   font-size: 13px;
-  color: #837F84;
+  color: #837f84;
   line-height: 1.5rem;
 }
 /* MISSION PAGE*/
 #mission {
-  background-color: #EEF5FF;
+  background-color: #eef5ff;
   color: #283646;
-}  
+}
 #mission h1 span {
-  color: #D80C56;
+  color: #d80c56;
 }
 #mission p {
   font-size: 12px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .mission-description {
   font-size: 15px !important;
-  font-family: 'Montserrat', sans-serif;
-  line-height: 1.75rem; 
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.75rem;
 }
 #mission i {
-  background-color: #EEF5FF;
+  background-color: #eef5ff;
   border-radius: 50%;
   padding: 10px;
   text-align: center;
-  color: #D80C56;
+  color: #d80c56;
   margin-right: 5px;
   margin-left: 5px;
 }
@@ -468,55 +453,55 @@ div.relative {
   border: none;
   background-color: #fff !important;
 }
-#mission h3 { 
+#mission h3 {
   font-weight: bold;
 }
 #mission h6 {
   font-size: 14px;
   font-weight: bold;
-} 
+}
 /*SubPageThree*/
-#bixcod { 
+#bixcod {
   color: #121313;
 }
-#bixcod p { 
+#bixcod p {
   font-size: 14px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 1.75rem;
 }
-#bixcod i { 
+#bixcod i {
   font-size: 12px;
-  font-family: 'Montserrat', sans-serif; 
+  font-family: "Montserrat", sans-serif;
 }
-.bixcod p { 
+.bixcod p {
   font-size: 12px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
-.bixcod h6 { 
+.bixcod h6 {
   margin-top: 20px;
 }
 .desktop-sofware {
-  background-color: #D80C56;
+  background-color: #d80c56;
   color: #fff;
 }
-#bixcod .card { 
+#bixcod .card {
   background-color: #fff !important;
   margin-bottom: 20px;
   border: none;
 }
-#bixcod img { 
+#bixcod img {
   width: 50px;
   margin-top: 10px;
-} 
+}
 #bixcod-description {
-  background-image: url('../image/mask-group.svg');
+  background-image: url("../image/mask-group.svg");
   background-size: cover;
-  background-position: center center; 
+  background-position: center center;
   color: #fff;
   background-color: #122048;
 }
 #bixcod-description h2 span {
-  color: #D80C56;
+  color: #d80c56;
 }
 .white-line {
   height: 35vh;
