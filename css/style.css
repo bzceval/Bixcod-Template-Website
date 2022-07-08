@@ -27,7 +27,7 @@ body {
   height: 0;
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   overflow: hidden; 
   transition: .5s ease-in-out;
 }
@@ -42,7 +42,7 @@ body {
   text-decoration: none !important;
   color: #111b29 !important;
 }
-#fullScreenMenu .close-btn {
+/* #fullScreenMenu .close-btn {
   color: rgba(0, 0, 0, .95);
   cursor: pointer;
   font-size: 60px;
@@ -53,7 +53,10 @@ body {
 }
 #fullScreenMenu .close-btn:hover {
   color: rgba(0, 0, 0, 1);
-  
+} */
+.navbar-toggler-icon {
+  color: #fff !important;
+  background-color: #fff;
 }
 /* #fullScreenMenu main {
   display: flex;

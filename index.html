@@ -28,13 +28,48 @@
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="#">Ana Sayfa</a>
             </li>
-            
+
             <li class="nav-item dropdown position-static">
-              <a id="openNav" style="cursor: pointer;" class="nav-link" aria-current="page" href="#">Ürün ve Servisler <i class="bi bi-chevron-down"></i></a>
+              <a id="openNav" style="cursor: pointer;" class="nav-link" aria-current="page" href="#">Ürün ve Servisler
+                <i class="bi bi-chevron-down"></i></a>
               <div id="fullScreenMenu" class="overlay">
-                <div class="close-btn">&times;</div>
+                <!-- <div class="close-btn">&times;</div> -->
                 <main>
                   <div class="container">
+                    <!-- Navbar -->
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                      <div class="container">
+                        <a class="navbar-brand" href="#"><img src="./image/bixcod-logo.png" alt="" width="150"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                          aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                              <a class="nav-link" aria-current="page" href="#"><div class="text-black close-home">Ana Sayfa</div></a>
+                            </li>
+                            <li class="nav-item dropdown position-static">
+                              <a class="nav-link" href="#"><div class="text-black">Ürün ve Servisler <i class="bi bi-chevron-up"></i></div></a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#"><div class="text-black close-adjective">Kurumsal</div></a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#"><div class="text-black close-blog">Blog</div></a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#"><div class="text-black close-contact">Bize Ulaşın</div></a>
+                            </li>
+                          </ul>
+                          <form class="d-flex">
+                            <!-- <input class="form-control me-2" type="search" placeholder="0850 444 44 44" aria-label="Search"> -->
+                            <button class="btn btn-secondary" type="submit">Hızlı Teklif Al</button>
+                          </form>
+                        </div>
+                      </div>
+                    </nav>
                     <div class="row">
                       <div class="col p-5">
                         <h4>Web Yazılım</h4>
@@ -119,94 +154,8 @@
                     </div>
                   </div>
                 </main>
-            </div>
-            <!-- <button id="openNav" style="padding: 5px 10px; cursor: pointer;">Ürün ve Servisler</button> -->
-              <!-- <ul class="dropdown-menu w-100" aria-labelledby="navbarDropdown">
-                <div class="container">
-                  <div class="row w-100">
-                    <div class="col p-5">
-                      <h4>Web Yazılım</h4>
-                      <div class="dash-navbar"></div>
-                      <div class="d-flex align-items-center flex-row">
-                        <img src="./image/navbar-icon.svg" alt="">
-                        <p class="ms-2"><a href="">Özel Yazılım</a></p>
-                      </div>
-                      <div class="d-flex align-items-center flex-row">
-                        <img src="./image/navbar-icontwo.svg" alt="">
-                        <p class="ms-2"><a href="">Depo ve Stok Çözümleri</a></p>
-                      </div>
-                      <div class="d-flex align-items-center flex-row">
-                        <img src="./image/navbar-iconthree.svg" alt="">
-                        <p class="ms-2"><a href="">Hazır Yazılımlar</a></p>
-                      </div>
-                      <div class="d-flex align-items-center flex-row">
-                        <img src="./image/navbar-iconfour.svg" alt="">
-                        <p class="ms-2"><a href="">Kurumsal Tasarımlar</a></p>
-                      </div>
-                    </div>
-                    <div class="col p-5">
-                      <h4>Kurumsal Çözümler</h4>
-                      <div class="dash-navbar"></div>
-                      <div class="d-flex align-items-center flex-row">
-                        <img src="./image/navbar-icon.svg" alt="">
-                        <p class="ms-2"><a href="">Özel Yazılım</a></p>
-                      </div>
-                      <div class="d-flex align-items-center flex-row">
-                        <img src="./image/navbar-icontwo.svg" alt="">
-                        <p class="ms-2"><a href="">Depo ve Stok Çözümleri</a></p>
-                      </div>
-                      <div class="d-flex align-items-center flex-row">
-                        <img src="./image/navbar-iconthree.svg" alt="">
-                        <p class="ms-2"><a href="">Hazır Yazılımlar</a></p>
-                      </div>
-                      <div class="d-flex align-items-center flex-row">
-                        <img src="./image/navbar-iconfour.svg" alt="">
-                        <p class="ms-2"><a href="">Kurumsal Tasarımlar</a></p>
-                      </div>
-                    </div>
-                    <div class="col p-5">
-                      <h4>E-Ticaret</h4>
-                      <div class="dash-navbar"></div>
-                      <div class="d-flex align-items-center flex-row">
-                        <img src="./image/navbar-icon.svg" alt="">
-                        <p class="ms-2"><a href="">Özel Yazılım</a></p>
-                      </div>
-                      <div class="d-flex align-items-center flex-row">
-                        <img src="./image/navbar-icontwo.svg" alt="">
-                        <p class="ms-2"><a href="">Depo ve Stok Çözümleri</a></p>
-                      </div>
-                      <div class="d-flex align-items-center flex-row">
-                        <img src="./image/navbar-iconthree.svg" alt="">
-                        <p class="ms-2"><a href="">Hazır Yazılımlar</a></p>
-                      </div>
-                      <div class="d-flex align-items-center flex-row">
-                        <img src="./image/navbar-iconfour.svg" alt="">
-                        <p class="ms-2"><a href="">Kurumsal Tasarımlar</a></p>
-                      </div>
-                    </div>
-                    <div class="col p-5">
-                      <h4>Akademi</h4>
-                      <div class="dash-navbar"></div>
-                      <div class="d-flex align-items-center flex-row">
-                        <img src="./image/navbar-icon.svg" alt="">
-                        <p class="ms-2"><a href="">Özel Yazılım</a></p>
-                      </div>
-                      <div class="d-flex align-items-center flex-row">
-                        <img src="./image/navbar-icontwo.svg" alt="">
-                        <p class="ms-2"><a href="">Depo ve Stok Çözümleri</a></p>
-                      </div>
-                      <div class="d-flex align-items-center flex-row">
-                        <img src="./image/navbar-iconthree.svg" alt="">
-                        <p class="ms-2"><a href="">Hazır Yazılımlar</a></p>
-                      </div>
-                      <div class="d-flex align-items-center flex-row">
-                        <img src="./image/navbar-iconfour.svg" alt="">
-                        <p class="ms-2"><a href="">Kurumsal Tasarımlar</a></p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </ul> -->
+              </div>
+              <!-- <button id="openNav" style="padding: 5px 10px; cursor: pointer;">Ürün ve Servisler</button> -->
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Kurumsal</a>
@@ -238,79 +187,79 @@
   <!-- Bixcod -->
   <div class="container">
     <div class="py-5">
-    <ul class="nav nav-pills" id="pills-tab" role="tablist">
-      <li class="nav-item" role="presentation">
-        <button class="nav-link active" id="pills-who-tab" data-bs-toggle="pill" data-bs-target="#pills-who"
-          type="button" role="tab" aria-controls="pills-who" aria-selected="true">Biz Kimiz <span> ?</span></button>
-      </li>
-      <li class="nav-item" role="presentation">
-        <button class="nav-link" id="pills-what-tab" data-bs-toggle="pill" data-bs-target="#pills-what" type="button"
-          role="tab" aria-controls="pills-what" aria-selected="false">Neler Yapıyoruz <span> ?</span></button>
-      </li>
-      <li class="nav-item" role="presentation">
-        <button class="nav-link" id="pills-why-tab" data-bs-toggle="pill" data-bs-target="#pills-why" type="button"
-          role="tab" aria-controls="pills-why" aria-selected="false">Neden Biz<span> ?</span></button>
-      </li>
-      <li class="nav-item" role="presentation">
-        <button class="nav-link" id="pills-how-tab" data-bs-toggle="pill" data-bs-target="#pills-how" type="button"
-          role="tab" aria-controls="pills-how" aria-selected="false">Nasıl Yaptık <span> ?</span></button>
-      </li>
-    </ul>
-    <div class="container">
-      <div class="tab-content" id="pills-tabContent">
-        <div class="tab-pane fade show active" id="pills-who" role="tabpanel" aria-labelledby="pills-who-tab">
-          <div class="tabbar row row-cols-1 row-cols-md-3">
-            <div class="col">
-              <div class="card mb-4">
-                <img class="active" src="./image/temporary-image-nonebg.svg" width="100%" height="150" alt="">
-                <div class="card-body text-center">
-                  <h1 class="my-0 fw-normal">Web Tasarım</h1>
-                  <ul class="list-unstyled mt-3 mb-4">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                      labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                    <button type="button" class="btn btn-outline-secondary">Detaylı Bilgi Al <i
-                        class="bi bi-arrow-right"></i></button>
-                  </ul>
+      <ul class="nav nav-pills" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="pills-who-tab" data-bs-toggle="pill" data-bs-target="#pills-who"
+            type="button" role="tab" aria-controls="pills-who" aria-selected="true">Biz Kimiz <span> ?</span></button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-what-tab" data-bs-toggle="pill" data-bs-target="#pills-what" type="button"
+            role="tab" aria-controls="pills-what" aria-selected="false">Neler Yapıyoruz <span> ?</span></button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-why-tab" data-bs-toggle="pill" data-bs-target="#pills-why" type="button"
+            role="tab" aria-controls="pills-why" aria-selected="false">Neden Biz<span> ?</span></button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-how-tab" data-bs-toggle="pill" data-bs-target="#pills-how" type="button"
+            role="tab" aria-controls="pills-how" aria-selected="false">Nasıl Yaptık <span> ?</span></button>
+        </li>
+      </ul>
+      <div class="container">
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-who" role="tabpanel" aria-labelledby="pills-who-tab">
+            <div class="tabbar row row-cols-1 row-cols-md-3">
+              <div class="col">
+                <div class="card mb-4">
+                  <img class="active" src="./image/temporary-image-nonebg.svg" width="100%" height="150" alt="">
+                  <div class="card-body text-center">
+                    <h1 class="my-0 fw-normal">Web Tasarım</h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                      <button type="button" class="btn btn-outline-secondary">Detaylı Bilgi Al <i
+                          class="bi bi-arrow-right"></i></button>
+                    </ul>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col">
-              <div class="card mb-4">
-                <img src="./image/temporary-image.svg" width="100%" height="150" alt="">
-                <div class="card-body text-center">
-                  <h1 class="my-0 fw-normal">E-Ticaret</h1>
-                  <ul class="list-unstyled mt-3 mb-4">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                      labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                    <button type="button" class="btn btn-outline-secondary">Detaylı Bilgi Al <i
-                        class="bi bi-arrow-right"></i></button>
-                  </ul>
+              <div class="col">
+                <div class="card mb-4">
+                  <img src="./image/temporary-image.svg" width="100%" height="150" alt="">
+                  <div class="card-body text-center">
+                    <h1 class="my-0 fw-normal">E-Ticaret</h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                      <button type="button" class="btn btn-outline-secondary">Detaylı Bilgi Al <i
+                          class="bi bi-arrow-right"></i></button>
+                    </ul>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col">
-              <div class="card mb-4">
-                <img src="./image/temporary-image.svg" width="100%" height="150" alt="">
-                <div class="card-body text-center">
-                  <h1 class="my-0 fw-normal">HelpDesk</h1>
-                  <ul class="list-unstyled mt-3 mb-4">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                      labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                    <button type="button" class="btn btn-outline-secondary">Detaylı Bilgi Al <i
-                        class="bi bi-arrow-right"></i></button>
-                  </ul>
+              <div class="col">
+                <div class="card mb-4">
+                  <img src="./image/temporary-image.svg" width="100%" height="150" alt="">
+                  <div class="card-body text-center">
+                    <h1 class="my-0 fw-normal">HelpDesk</h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                      <button type="button" class="btn btn-outline-secondary">Detaylı Bilgi Al <i
+                          class="bi bi-arrow-right"></i></button>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="tab-pane fade" id="pills-what" role="tabpanel" aria-labelledby="pills-what-tab">Neler Yapıyoruz
+          <div class="tab-pane fade" id="pills-what" role="tabpanel" aria-labelledby="pills-what-tab">Neler Yapıyoruz
+          </div>
+          <div class="tab-pane fade" id="pills-why" role="tabpanel" aria-labelledby="pills-why-tab">Neden Biz </div>
+          <div class="tab-pane fade" id="pills-how" role="tabpanel" aria-labelledby="pills-how-tab">Nasıl Yaptık </div>
         </div>
-        <div class="tab-pane fade" id="pills-why" role="tabpanel" aria-labelledby="pills-why-tab">Neden Biz </div>
-        <div class="tab-pane fade" id="pills-how" role="tabpanel" aria-labelledby="pills-how-tab">Nasıl Yaptık </div>
       </div>
-    </div>
     </div>
   </div>
 
@@ -374,10 +323,10 @@
               <img src="./image/module.svg" alt="">
               <h6>Onlarca Modül</h6>
             </div>
-          </div> 
+          </div>
+        </div>
       </div>
-      </div>
-    </div> 
+    </div>
   </section>
 
   <!-- Preference -->
