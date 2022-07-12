@@ -182,6 +182,14 @@ button#pills-how-tab.active span {
   font-size: 13px;
   font-weight: bold;
 }
+/*tabbar whoweare*/
+#who-we-are h1 {
+  color: #121313;
+}
+#who-we-are li {
+  color: #757095;
+  margin-top: 20px;
+}
 /* Satisfaction */
 #satification h2 {
   font-weight: bolder;
