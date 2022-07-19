@@ -418,9 +418,10 @@ hr {
 .featurette {
   padding-bottom: 100px !important;
 }
-.card:hover {
-  transform: rotateZ(-1deg) scale(1.05);
+.card-animation:hover {
+  transform: rotateZ(-2deg) scale(1.05);
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  border: 2px solid rgba(0, 0, 0, 0.1) !important;
 }
 /*web-tech*/
 .web-tech h1 {
