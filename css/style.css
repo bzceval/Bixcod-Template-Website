@@ -423,6 +423,27 @@ hr {
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   border: 2px solid rgba(0, 0, 0, 0.1) !important;
 }
+.fade-animation-start {
+  animation: fadeIn 5s;
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+.fade-animation-mid {
+  animation: fadeIn 10s;
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+.fade-animation-end {
+  animation: fadeIn 15s;
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
 /*web-tech*/
 .web-tech h1 {
   padding-left: 50px;
