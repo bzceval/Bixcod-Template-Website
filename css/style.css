@@ -531,8 +531,8 @@ hr {
 .bixcod h6 {
   margin-top: 20px;
 }
-.desktop-sofware {
-  background-color: #d80c56;
+.desktop-sofware:hover {
+  background-color: #d80c56 !important;
   color: #fff;
 }
 #bixcod .card {
