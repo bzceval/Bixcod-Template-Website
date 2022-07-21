@@ -530,20 +530,26 @@ hr {
 }
 .bixcod h6 {
   margin-top: 20px;
-}
+} 
 .desktop-sofware:hover {
   background-color: #e33e42 !important;
   color: #fff;
+}
+/* .desktop-sofware i:hover { 
+  color: #fff !important;
+} */
+.desktop-sofware i {
+  font-size: 20px !important;
+  /* color: #e33e42 !important; */
+  background-color: #3a7bfc15;
+  border-radius: 50%;
+  padding: 10px;
 }
 #bixcod .card {
   background-color: #fff !important;
   margin-bottom: 20px;
   border: none;
-}
-#bixcod img {
-  width: 50px;
-  margin-top: 10px;
-}
+} 
 #bixcod-description {
   background-image: url("../image/mask-group.svg");
   background-size: cover;
