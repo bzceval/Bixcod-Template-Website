@@ -48,6 +48,10 @@ a.nav-link:hover {
 a.nav-link:active {
   color: #e33e42 !important;
 }
+button.navbar-toggler{
+  color: #fff !important;
+  border: #e33e42 1px solid !important ;
+}
 .dash-navbar {
   border-top: 1px dashed #000000;
   margin-bottom: 5px;
