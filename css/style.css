@@ -198,6 +198,22 @@ ul.dropdown-menu.w-100.show {
   color: #e33e42 !important;
 }
 /*tabbar*/
+.bi-chevron-left {
+  padding: 10px;
+  background-color: #121313;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+}
+.bi-chevron-right {
+  padding: 10px;
+  background-color: #121313;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+}
 .nav-pills button {
   color: #1220481c;
   font-size: 25px !important ;
