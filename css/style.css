@@ -30,6 +30,9 @@ body {
 .container-div {
   height: 55vh;
 }
+.container-landing {
+  height: 80vh;
+}
 /* navbar */
 .navbar { 
   font-family: "Montserrat", sans-serif;
