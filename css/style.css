@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&family=Rubik:wght@300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Pangolin&display=swap');
 .gradient {
   background-image: linear-gradient(
     to right bottom,
@@ -249,6 +250,15 @@ z-index: 1;
 .navbar {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
+}
+.navbar-brand {
+  font-family: 'Anton', sans-serif;
+  font-size: 25px !important;
+  letter-spacing: .3rem;
+}
+.navbar-brand span {
+  font-family: 'Pangolin', cursive;
+  text-transform: uppercase;
 }
 .desktop-navbar li {
   margin-right: 20px;
