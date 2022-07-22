@@ -307,7 +307,8 @@ hr {
   font-size: 13px !important;
 }
 .bi-arrow-right {
-  padding-left: 50px;
+  padding-left: 50px; 
+  font-weight: bold;
 }
 #customer h1 {
   font-family: "Montserrat", sans-serif;
@@ -354,11 +355,25 @@ hr {
   margin: 0px 0px 0px 0px;
   color: #959ead;
 }
+#preference h5 {
+  font-size: 12px;
+  font-weight: bolder;
+  padding: 0px;
+  margin: 0px 0px 0px 0px;
+  color: #959ead; 
+}
 #preference h3 {
   font-size: 16px;
   padding: 0px;
   margin: 0px 0px 0px 0px;
   color: #183b56;
+}
+#preference h2 {
+  font-size: 16px;
+  margin-top: 10px; 
+  margin-bottom: 30px;
+  color: #183b56;
+  font-weight: bold;
 }
 #preference .card {
   background-color: #fff !important;
@@ -368,13 +383,12 @@ hr {
 .carousel-indicators button {
   background-color: #e33e42 !important;
 }
-#preference a {
+.preference-button {
   font-size: 12px;
-  padding: 50px 0px 0px 0px;
-  margin: 50px 0px 0px 0px;
+  font-weight: bold; 
   text-decoration: none;
-  color: #e33e42;
-  font-weight: bold;
+  color: #e33e42 !important;
+  font-weight: bold; 
 }
 /*Need*/
 #need {
