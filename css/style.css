@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&family=Rubik:wght@300;400&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 .gradient {
   background-image: linear-gradient(
     to right bottom,
@@ -28,15 +28,103 @@ body {
   background-position: center center;
 }
 .container-div {
-  height: 55vh;
+  height: 60vh;
 }
 .container-landing {
   height: 80vh;
 }
 /* navbar */
-.navbar { 
+.navbar {
   font-family: "Montserrat", sans-serif;
   font-weight: 500; 
+}
+.desktop-navbar li {
+  margin-right: 20px;
+  margin-left: 20px;
+} 
+.dropdown-menu .nav-link {
+  color: #000 !important;
+  font-weight: 500 !important;
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 14px !important; 
+}
+.dropdown h4 a {
+  font-size: 18px;
+  font-weight: bold;
+  color: #111b29;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: bolder; 
+}
+.dropdown p,
+a {
+  font-size: 16px;
+  text-decoration: none !important;
+  color: #111b29 !important;
+}
+@media screen and (max-width: 1400px) {
+  .dropdown h4 a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #111b29;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: bolder; 
+  }
+  .dropdown p,
+  a {
+    font-size: 16px;
+    text-decoration: none !important;
+    color: #111b29 !important;
+  }
+}
+@media screen and (max-width: 960px) {
+  .dropdown h4 a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #111b29;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: bolder;
+  }
+  .dropdown p,
+  a {
+    font-size: 16px;
+    text-decoration: none !important;
+    color: #111b29 !important;
+  }
+}
+@media screen and (max-width: 700px) {
+  .dropdown h4 a {
+    font-size: 13px;
+    font-weight: bold;
+    color: #111b29;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: bolder;
+  }
+  .dropdown p,
+  a {
+    font-size: 13px;
+    text-decoration: none !important;
+    color: #111b29 !important;
+  }
+}
+@media screen and (max-width: 560px) {
+  .dropdown h4 a {
+    font-size: 13px;
+    font-weight: bold;
+    color: #111b29;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: bolder;
+  }
+  .dropdown p,
+  a {
+    font-size: 13px;
+    text-decoration: none !important;
+    color: #111b29 !important;
+  }
 }
 a.nav-link {
   font-size: 14px !important;
@@ -48,41 +136,21 @@ a.nav-link:hover {
 a.nav-link:active {
   color: #e33e42 !important;
 }
-button.navbar-toggler{
+button.navbar-toggler {
   color: #fff !important;
-  border: #e33e42 1px solid !important ;
+  border: #e33e42 1px solid !important;
 }
 .dash-navbar {
   border-top: 1px dashed #000000;
   margin-bottom: 5px;
   padding-left: 5px;
   padding-right: 5px;
-} 
-.dropdown-menu .nav-link {
-  color: #000 !important;
-  font-weight: 500 !important;
-  font-family: "Montserrat", sans-serif !important; 
-  font-size: 14px !important;
 }
 .dropdown:hover .dropdown-menu {
   display: block;
   top: 0;
   left: 0;
   right: 0;
-} 
-.dropdown h4 a {
-  font-size: 18px;
-  font-weight: bold;
-  color: #111b29;
-  margin-bottom: 10px;
-  text-transform: uppercase; 
-  font-weight: bolder;
-}
-.dropdown p,
-a { 
-  font-size: 16px;
-  text-decoration: none !important;
-  color: #111b29 !important;
 }
 .dropdown a:hover {
   color: #e33e42 !important;
@@ -92,26 +160,31 @@ ul.dropdown-menu.w-100.show {
   top: 0 !important;
   left: 0 !important;
   transition: 0.5s ease-in-out !important;
-}      
+}
 .btn-secondary {
-  background-image: linear-gradient(to right, #122048 0%, #e33e42  51%, #122048  100%); 
+  background-image: linear-gradient(
+    to right,
+    #122048 0%,
+    #e33e42 51%,
+    #122048 100%
+  );
   padding: 8px 25px 8px 25px !important;
-  text-align: center; 
+  text-align: center;
   transition: 0.5s;
   background-size: 200% auto;
-  color: white;            
+  color: white;
   box-shadow: 0 0 20px #e33e4187;
   border-radius: 20px !important;
   display: block;
   font-size: 14px !important;
   border: none !important;
-  font-weight: 500 ;
+  font-weight: 500;
 }
 .btn-secondary:hover {
   background-position: right center;
   color: #fff;
   text-decoration: none;
-  transition:  0.5s;
+  transition: 0.5s;
 }
 .btn-secondary-light {
   background-color: #e33e42 !important;
