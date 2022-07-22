@@ -18,37 +18,53 @@
       <!-- Navbar -->
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
-          <a class="navbar-brand" href="#"><img src="./image/bixcod-logo.png" alt="" width="150"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <div class="d-flex align-items-center">
+            <ul class="navbar-nav mb-lg-0"> 
               <li class="nav-item">
+                <a class="navbar-brand" href="./index.html"><img src="./image/bixcod-logo.png" alt="" width="250"></a> 
+              </li>
+              <li class="nav-item mx-2 my-5">
                 <a class="nav-link" aria-current="page" href="#">Ana Sayfa</a>
               </li>
-              <li class="nav-item dropdown position-static">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              <li class="nav-item mx-2 my-5 dropdown position-static">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">Ürün ve Servisler</a>
+                <!-- Dropdown -->
                 <ul class="dropdown-menu w-100" aria-labelledby="navbarDropdown">
                   <div class="container">
-                    <div class="d-flex justify-content-center mb-5 mt-3">
-                      <div class="flex-grow-1">
-                        <a class="navbar-brand text-dark" href="#">BİXCOD</a>
-                      </div>
-                      <div class="flex-grow-1 bg-bar mt-1">
-                        <a href="">Ana Sayfa</a>
-                        <a href="" class="active">Ürün ve Servisler <i class="bi bi-caret-up-fill"></i></a>
-                        <a href="">Kurumsal</a>
-                        <a href="">Blog</a>
-                        <a href="">Bize Ulaşın</a>
-                      </div>
-                      <div>
-                        <button class="btn btn-secondary-light" type="submit">Hızlı Teklif Al</button>
-                      </div>
-                    </div>
+                    <ul class="navbar-nav mb-lg-0"> 
+                      <li class="nav-item mx-2">
+                          <a class="navbar-brand" href="./index.html"><img src="./image/bixcod-logo.png" alt="" width="250"></a>
+                      </li>
+                      <li class="nav-item mx-2 my-5">
+                        <a class="nav-link" aria-current="page" href="#">Ana Sayfa</a>
+                      </li>
+                      <li class="nav-item mx-2 my-5 dropdown position-static">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                          aria-expanded="false">Ürün ve Servisler</a> 
+                      </li>
+                      <li class="nav-item mx-2 my-5">
+                        <a class="nav-link" href="./mission.html">Kurumsal</a>
+                      </li>
+                      <li class="nav-item mx-2 my-5">
+                        <a class="nav-link" href="#">Blog</a>
+                      </li>
+                      <li class="nav-item mx-2 my-5">
+                        <a class="nav-link" href="./aboutUs.html">Bize Ulaşın</a>
+                      </li>
+                      <li class="nav-item mx-4 my-5">
+                        <a class="nav-link" href="tel:123-456-7890">123 456 78 90</a>
+                      </li>
+                      <li class="nav-item my-5">
+                        <button class="btn btn-secondary" type="submit">Hızlı Teklif Al</button>
+                      </li>
+                    </ul> 
                     <div class="row mb-5">
                       <div class="col">
                         <h4><a href="./subPage/web-design.html">Web Yazılım</a></h4>
@@ -91,7 +107,7 @@
                         </div>
                       </div>
                       <div class="col">
-                        <h4>ERP&Entegre</h4>
+                        <h4><a href="./subPage/digital-marketing.html">ERP & Entegre</a></h4>
                         <div class="dash-navbar"></div>
                         <div class="d-flex align-items-center flex-row">
                           <img src="./image/navbar-icon.svg" alt="">
@@ -133,20 +149,23 @@
                     </div>
                 </ul>
               </li>
-              <li class="nav-item">
+              <li class="nav-item mx-2 my-5">
                 <a class="nav-link" href="./mission.html">Kurumsal</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item mx-2 my-5">
                 <a class="nav-link" href="#">Blog</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item mx-2 my-5">
                 <a class="nav-link" href="./aboutUs.html">Bize Ulaşın</a>
               </li>
-            </ul>
-            <form class="d-flex">
-              <!-- <input class="form-control me-2" type="search" placeholder="0850 444 44 44" aria-label="Search"> -->
-              <button class="btn btn-secondary" type="submit">Hızlı Teklif Al</button>
-            </form>
+              <li class="nav-item mx-4 my-5">
+                <a class="nav-link" href="tel:123-456-7890">123 456 78 90</a>
+              </li>
+              <li class="nav-item my-5">
+                <button class="btn btn-secondary" type="submit">Hızlı Teklif Al</button>
+              </li>
+            </ul> 
+            </div>
           </div>
         </div>
       </nav>
