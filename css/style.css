@@ -368,11 +368,23 @@ button.navbar-toggler {
   padding-left: 5px;
   padding-right: 5px;
 }
-.dropdown:hover .dropdown-menu {
+.dropdown:hover .dropdown-menu-product {
   display: block;
   top: 0;
   left: 0;
   right: 0;
+} 
+.dropdown:hover .dropdown-menu-kurumsal {
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+} 
+.cat {
+  background-color: #15c5ce !important;
+}
+.cat2 {
+  background-color: #ce158d !important;
 }
 .dropdown a:hover {
   color: #e33e42 !important;
